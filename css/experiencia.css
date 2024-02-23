@@ -38,12 +38,9 @@
     border-radius: 4px;
     position: relative;
     color: #942469;
-
-
 }
 .projeto:hover{
     box-shadow: 0 4px 8px #942469;
-
 }
 .projeto_exp{
     display: grid;
@@ -55,8 +52,6 @@
     border-radius: 4px;
     position: relative;
     color: #942469;
-
-
 }
 .projeto::before{
     content:'';
@@ -67,7 +62,6 @@
     position: absolute;
     top: 20px;
     left: -4px;
-
 }
 
 .projeto-ano{
@@ -77,8 +71,7 @@
     color: #525252;
     text-align: right;
     width: 80px;
-    font-size:  0.875rem;
-   
+    font-size:  0.875rem; 
 }
 
 .projeto-titulo{
@@ -98,7 +91,6 @@
     flex-wrap: wrap;
     gap: 10px;
     align-content: start;
-
 }
 
 .projeto-habilidades li{
@@ -113,7 +105,6 @@
     .experiencia{
         grid-template-columns:  1fr;
         gap: 40px;
-
     }
     .experiencia .subtitulo{
         color: #942469;
