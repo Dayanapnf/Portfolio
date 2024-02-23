@@ -28,7 +28,6 @@
 .link{
     text-decoration: none;
 }
-
 .projeto{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,6 +39,10 @@
     position: relative;
     color: #942469;
 
+
+}
+.projeto:hover{
+    box-shadow: 0 4px 8px #942469;
 
 }
 .projeto_exp{
